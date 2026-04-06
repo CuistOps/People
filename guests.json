@@ -51,5 +51,20 @@
     "github": "https://github.com/batleforc/",
     "blog": "https://batleforc.github.io/weebo-si/0.introduction/home.html",
     "tags": ["Talos", "Cybersec", "Weebo-SI", "Streamer"]
+  },
+  {
+    "id": 5,
+    "name": "Denis Germain",
+    "title": "Platform Engineer Manager à Lucca",
+    "role": "guest",
+    "bio": "Éditeur, blogger et speaker passionné de Kubernetes et de produits cloud-native.",
+    "avatar": "https://avatars.githubusercontent.com/u/24699592?v=4",
+    "linkedin": "https://www.linkedin.com/in/denis-germain/",
+    "bluesky": "https://bsky.app/profile/zwindler.fr/",
+    "github": "https://github.com/zwindler/",
+    "blog": "https://blog.zwindler.fr ",
+    "rss": "https://blog.zwindler.fr/index.xml",
+    "tags": ["Kubestronaut", "Blog", "50ndk"]
   }
+
 ]
