@@ -495,13 +495,13 @@
       margin-bottom: 6px;
     }
 
-    .role-badge.guest {
+    .role-badge.blog {
       background: rgba(251, 191, 36, 0.12);
       color: #fbbf24;
       border: 1px solid rgba(251, 191, 36, 0.3);
     }
 
-    .role-badge.cuistot {
+    .role-badge.speaker {
       background: rgba(52, 211, 153, 0.12);
       color: #34d399;
       border: 1px solid rgba(52, 211, 153, 0.3);
@@ -547,8 +547,8 @@
       margin-right: 5px;
     }
 
-    .filter-tab[data-role="guest"] .dot { background: #fbbf24; }
-    .filter-tab[data-role="cuistot"] .dot { background: #34d399; }
+    .filter-tab[data-role="blog"] .dot { background: #fbbf24; }
+    .filter-tab[data-role="speaker"] .dot { background: #34d399; }
 
     /* ── Empty state ── */
     .empty-state {
@@ -613,8 +613,8 @@
 
   <div class="filter-tabs">
     <button class="filter-tab active" data-role="all" onclick="setFilter('all')">Tous</button>
-    <button class="filter-tab" data-role="cuistot" onclick="setFilter('cuistot')"><span class="dot"></span>Cuistots</button>
-    <button class="filter-tab" data-role="guest" onclick="setFilter('guest')"><span class="dot"></span>Chefs cuisiniers</button>
+    <button class="filter-tab" data-role="speaker" onclick="setFilter('speaker')"><span class="dot"></span>Speakers</button>
+    <button class="filter-tab" data-role="blog" onclick="setFilter('blog')"><span class="dot"></span>Blogs</button>
   </div>
 
   <div class="stats-bar">
@@ -697,7 +697,10 @@
       ? `<a class="blog-link" href="${g.blog}" target="_blank" rel="noopener noreferrer" onclick="event.stopPropagation()">${ICONS.blog} Lire le blog</a>`
       : '';
 
-    const roleLabel = g.role === 'guest' ? 'Guest' : 'Cuistot';
+    const badges = (g.roles ?? [g.role]).map(r => {
+      const label = r === 'blog' ? 'Blog' : 'Speaker';
+      return `<span class="role-badge ${r}">${label}</span>`;
+    }).join('');
 
     return `
       <article class="guest-card" data-id="${g.id}">
@@ -706,7 +709,7 @@
             <img class="avatar" src="${g.avatar}" alt="${g.name}" loading="lazy" onerror="this.src='https://ui-avatars.com/api/?name=${encodeURIComponent(g.name)}&background=6c63ff&color=fff&size=64'" />
           </div>
           <div class="card-info">
-            <span class="role-badge ${g.role}">${roleLabel}</span>
+            ${badges}
             <div class="guest-name">${g.name}</div>
             <div class="guest-title">${g.title}</div>
           </div>
@@ -752,7 +755,7 @@
     const q = document.getElementById('search').value.toLowerCase().trim();
     let filtered = guests;
     if (activeFilter !== 'all') {
-      filtered = filtered.filter(g => g.role === activeFilter);
+      filtered = filtered.filter(g => (g.roles ?? [g.role]).includes(activeFilter));
     }
     if (q) {
       filtered = filtered.filter(g =>

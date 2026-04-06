@@ -1,6 +1,6 @@
 # CuistOps — Guests
 
-Interface web listant les cuistots et guests du live DevOps francophone CuistOps.
+Interface web listant les speakers et blogueurs de la communauté du live DevOps francophone CuistOps.
 
 ## Ajouter une personne
 
@@ -11,7 +11,7 @@ Toutes les données sont dans [`guests.json`](guests.json). Ajouter une entrée 
 ```json
 {
   "id": 42,
-  "role": "guest",
+  "roles": ["blog"],
   "name": "Prénom NOM",
   "title": "Poste chez Entreprise",
   "bio": "Courte description de la personne.",
@@ -20,6 +20,7 @@ Toutes les données sont dans [`guests.json`](guests.json). Ajouter une entrée 
   "bluesky": "https://bsky.app/profile/handle.bsky.social",
   "github": "https://github.com/handle",
   "blog": "https://monblog.dev",
+  "rss": "https://monblog.dev/index.xml",
   "tags": ["Tag1", "Tag2", "Tag3"]
 }
 ```
@@ -29,7 +30,7 @@ Toutes les données sont dans [`guests.json`](guests.json). Ajouter une entrée 
 | Champ | Type | Obligatoire | Description |
 |-------|------|-------------|-------------|
 | `id` | entier | oui | Identifiant unique |
-| `role` | `"cuistot"` \| `"guest"` | oui | `"cuistot"` pour les animateurs, `"guest"` pour les invités |
+| `roles` | tableau de `"speaker"` \| `"blog"` | oui | Catégories de la personne — peut contenir les deux |
 | `name` | chaîne | oui | Nom complet |
 | `title` | chaîne | oui | Poste et entreprise |
 | `bio` | chaîne | oui | Courte biographie |
@@ -38,6 +39,7 @@ Toutes les données sont dans [`guests.json`](guests.json). Ajouter une entrée 
 | `bluesky` | URL \| `null` | non | Profil Bluesky |
 | `github` | URL \| `null` | non | Profil GitHub |
 | `blog` | URL \| `null` | non | Blog personnel — affiché en bouton mis en valeur sur la carte |
+| `rss` | URL \| `null` | non | Flux RSS du blog |
 | `tags` | tableau de chaînes | oui | Mots-clés (2-4 recommandés) |
 
 > Les champs optionnels absents ou à `null` n'affichent pas le bouton correspondant.
