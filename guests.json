@@ -65,6 +65,20 @@
     "blog": "https://blog.zwindler.fr ",
     "rss": "https://blog.zwindler.fr/index.xml",
     "tags": ["Kubestronaut", "Blog", "50ndk"]
+  },
+  {
+    "id": 6,
+    "name": "Thomas (Damyr) W.",
+    "title": "SRE | blogueur DevOps & associé @ Waays",
+    "role": "guest",
+    "bio": "Passionné par l'open source et les pratiques DevOps/DevSecOps, j'accompagne les entreprises dans la construction d'infrastructures cloud résilientes, performantes et sécurisées depuis plus de 8 ans.",
+    "avatar": "https://media.licdn.com/dms/image/v2/D4E03AQEV6yE0qoJncA/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1721997686839?e=1776902400&v=beta&t=OpCqOoyIRFZ-PcqR43M3m9fhLxExDijSrN6gMZ1IlOg",
+    "linkedin": "https://www.linkedin.com/in/thomas-damyr//",
+    "bluesky": "https://bsky.app/profile/damyr.fr/",
+    "github": "https://github.com/DamyrFr/",
+    "blog": "https://www.damyr.fr/ ",
+    "rss": "https://www.damyr.fr/index.xml",
+    "tags": ["Terraform", "Blog"]
   }
 
 ]

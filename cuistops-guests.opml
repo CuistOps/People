@@ -2,13 +2,14 @@
 <opml version="2.0">
   <head>
     <title>CuistOps — Blogs des potes</title>
-    <dateCreated>Mon, 06 Apr 2026 20:06:22 GMT</dateCreated>
+    <dateCreated>Mon, 06 Apr 2026 20:13:38 GMT</dateCreated>
   </head>
   <body>
     <outline text="CuistOps">
       <outline type="rss" text="Quentin JOLY" title="Quentin JOLY — SRE chez Lucca" xmlUrl="https://une-tasse-de.cafe/index.xml" htmlUrl="https://une-tasse-de.cafe"/>
       <outline type="rss" text="Joseph Ligier" title="Joseph Ligier — Ingénieur cloud chez Accenture" xmlUrl="https://blog.littlejo.link/index.xml" htmlUrl="https://blog.littlejo.link/"/>
       <outline type="rss" text="Denis Germain" title="Denis Germain — Platform Engineer Manager à Lucca" xmlUrl="https://blog.zwindler.fr/index.xml" htmlUrl="https://blog.zwindler.fr "/>
+      <outline type="rss" text="Thomas (Damyr) W." title="Thomas (Damyr) W. — SRE | blogueur DevOps &amp; associé @ Waays" xmlUrl="https://www.damyr.fr/index.xml" htmlUrl="https://www.damyr.fr/ "/>
     </outline>
   </body>
 </opml>
