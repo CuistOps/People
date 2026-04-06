@@ -32,7 +32,7 @@ const outlines = withRss.map(g => {
 const opml = `<?xml version="1.0" encoding="UTF-8"?>
 <opml version="2.0">
   <head>
-    <title>CuistOps — Blogs des guests &amp; cuistots</title>
+    <title>CuistOps — Blogs des potes</title>
     <dateCreated>${date}</dateCreated>
   </head>
   <body>
