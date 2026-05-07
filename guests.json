@@ -5,7 +5,8 @@
     "title": "SRE chez Lucca",
     "roles": [
       "speaker",
-      "blog"
+      "blog",
+      "streamer"
     ],
     "bio": "Blogger, speaker et passionné des technologies cloud-native. Ambassadeur Talos et soon-to-be Kubestronaut !",
     "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:hqnyog7skad6m4aejb2yujxy/bafkreiclf2okoz2sjzudxmuxq2w75mdfdqxelxoaustvuzszrykyq467vy",
@@ -14,6 +15,7 @@
     "github": "https://github.com/qjoly",
     "blog": "https://une-tasse-de.cafe",
     "rss": "https://une-tasse-de.cafe/index.xml",
+    "twitch": "https://www.twitch.tv/cuistops",
     "tags": [
       "SRE",
       "Talos",
@@ -25,13 +27,15 @@
     "name": "Joel Seguillon",
     "title": "SRE & cloud architect chez GroupBees",
     "roles": [
-      "speaker"
+      "speaker",
+      "streamer"
     ],
     "bio": "Expert Kubevirt et DAPR-enjoyeur, il est l'initiateur de la communauté CuistOps",
-    "avatar": "https://media.licdn.com/dms/image/v2/D4E03AQHM1GqTyzjEHA/profile-displayphoto-scale_400_400/B4EZqjJvsYIQAg-/0/1763673832834?e=1776902400&v=beta&t=IHEoVpje-1gh6Mh1-S5lOuasDPZ-vOnFJ0_dvPbrFv4",
+    "avatar": "avatars/jseguillon.webp",
     "linkedin": "https://www.linkedin.com/in/jseguillon/",
     "bluesky": "https://bsky.app/profile/jseguillon.bsky.social/",
     "github": "https://github.com/jseguillon/",
+    "twitch": "https://www.twitch.tv/cuistops",
     "tags": [
       "DAPR",
       "KubeVirt",
@@ -47,9 +51,9 @@
       "speaker"
     ],
     "bio": "Conçoit des plateformes internes pour accélérer la livraison logicielle.",
-    "avatar": "https://media.licdn.com/dms/image/v2/D4E03AQFx_uDsiJOvwA/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1689148400243?e=1776902400&v=beta&t=79wPw-1PAgdXTL9ZRcA8_ieFTB886pZMTSWX_WUjwdg",
+    "avatar": "avatars/josephligier.webp",
     "linkedin": "https://www.linkedin.com/in/joseph-ligier-4b86632/",
-    "bluesky": "https://bsky.app/profile/josephligier.bsky.social",
+    "bluesky": "https://bsky.app/profile/littlejo.bsky.social",
     "github": "https://github.com/littlejo",
     "blog": "https://blog.littlejo.link/",
     "rss": "https://blog.littlejo.link/index.xml",
@@ -73,6 +77,7 @@
     "bluesky": "https://bsky.app/profile/maxweebo.bsky.social",
     "github": "https://github.com/batleforc/",
     "blog": "https://batleforc.github.io/weebo-si/0.introduction/home.html",
+    "twitch": "https://www.twitch.tv/batleforc",
     "tags": [
       "Talos",
       "Cybersec",
@@ -89,7 +94,7 @@
       "blog"
     ],
     "bio": "Éditeur, blogger et speaker passionné de Kubernetes et de produits cloud-native.",
-    "avatar": "https://media.licdn.com/dms/image/v2/D4E03AQFbvp6ZZ1i7tg/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1718201577725?e=1776902400&v=beta&t=8YQKtQHMNRGyx0wd55uvoL0c4tIEedkGAecfeUmlZzs",
+    "avatar": "avatars/zwindler.webp",
     "linkedin": "https://www.linkedin.com/in/denis-germain/",
     "bluesky": "https://bsky.app/profile/zwindler.fr/",
     "github": "https://github.com/zwindler/",
@@ -109,7 +114,7 @@
       "blog"
     ],
     "bio": "Passionné par l'open source et les pratiques DevOps/DevSecOps, j'accompagne les entreprises dans la construction d'infrastructures cloud résilientes, performantes et sécurisées depuis plus de 8 ans.",
-    "avatar": "https://media.licdn.com/dms/image/v2/D4E03AQEV6yE0qoJncA/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1721997686839?e=1776902400&v=beta&t=OpCqOoyIRFZ-PcqR43M3m9fhLxExDijSrN6gMZ1IlOg",
+    "avatar": "avatars/damyr.webp",
     "linkedin": "https://www.linkedin.com/in/thomas-damyr//",
     "bluesky": "https://bsky.app/profile/damyr.fr/",
     "github": "https://github.com/DamyrFr/",
@@ -163,6 +168,173 @@
       "Kubernetes",
       "Hacking",
       "Blockchain"
+    ]
+  },
+  {
+    "id": 9,
+    "name": "Smaine Kahlouch (Smana)",
+    "title": "",
+    "roles": [
+      "blog"
+    ],
+    "bio": "SRE / DevOps / Cloud. Cloud native meetup and Kubernetes Community Days organizer. Loves surfing, skating, boxing and his family.",
+    "avatar": "avatars/smana_dev.webp",
+    "bluesky": "https://bsky.app/profile/smana.dev",
+    "tags": [],
+    "blog": "https://smana.dev"
+  },
+  {
+    "id": 10,
+    "name": "Aurélie Vache",
+    "title": "",
+    "roles": [
+      "blog"
+    ],
+    "bio": "🥑Developer Advocate at OVHcloud☁️ GoogleDevExpert, 🐳Docker Captain, CNCF Ambassador, Gitpod Hero, WomenTechmakers Ambassador Writer, sketchnoter, speaker ❤️ to help https://developers.events creator",
+    "avatar": "avatars/aurelievache.webp",
+    "bluesky": "https://bsky.app/profile/aurelievache.bsky.social",
+    "tags": [],
+    "blog": "https://dev.to/aurelievache",
+    "rss": "https://dev.to/feed/aurelievache"
+  },
+  {
+    "id": 11,
+    "name": "Raphaël Pinson",
+    "title": "",
+    "roles": [
+      "blog"
+    ],
+    "bio": "@cilium.io Alchemist @isovalent at Cisco | CNCF Ambassador | I'm the Oops in DevOops ∞ | Family Historian 🌳 | Tweets Mine | @raphink@hachyderm.io",
+    "avatar": "avatars/raphink_info.webp",
+    "bluesky": "https://bsky.app/profile/raphink.info",
+    "tags": [],
+    "blog": "https://raphink.info",
+    "rss": "https://dev.to/feed/raphink"
+  },
+  {
+    "id": 12,
+    "name": "Alexis \"Horgix\" Chotard",
+    "title": "",
+    "roles": [
+      "blog"
+    ],
+    "bio": "Staff SRE at @payfiteng.bsky.social & Maître Raclettier — Mostly posting about conferences & tech — 🔧 Automation, ❤️ Open-Source, ⚙️ Rust,  📣🎙️ Conferences {organizer, speaker, frequent attendee} — Mandatory « I use Arch btw »",
+    "avatar": "avatars/horgix_fr.webp",
+    "bluesky": "https://bsky.app/profile/horgix.fr",
+    "tags": [],
+    "blog": "https://horgix.fr"
+  },
+  {
+    "id": 13,
+    "name": "Pascal MARTIN 😶‍🌫️",
+    "title": "",
+    "roles": [
+      "blog"
+    ],
+    "bio": "Principal Engineer, 🌩️ DevOps. 🎤 Speaker. 📚 Author of “Votre Première Conférence”, “The Copenhagen Initiative”. AWS Container Hero. 🖋️ Currently writing “Découvrez AWS, en un mois” 📖. Messages+opinions are my own. FR/EN.",
+    "avatar": "avatars/pascal-martin_fr.webp",
+    "bluesky": "https://bsky.app/profile/pascal-martin.fr",
+    "tags": [],
+    "blog": "https://blog.pascal-martin.fr",
+    "rss": "https://blog.pascal-martin.fr/index.xml"
+  },
+  {
+    "id": 14,
+    "name": "Frédéric Léger - webofmars",
+    "title": "",
+    "roles": [
+      "blog"
+    ],
+    "bio": "Devops expert. Gamer. Geek. Hiking. Hospex. Dad. https://webofmars.com",
+    "avatar": "avatars/webofmars_com.webp",
+    "bluesky": "https://bsky.app/profile/webofmars.com",
+    "tags": [],
+    "blog": "https://webofmars.com",
+    "rss": "https://webofmars.com/index.xml"
+  },
+  {
+    "id": 15,
+    "name": "Olivier Bonvalet 🖖",
+    "title": "",
+    "roles": [
+      "blog"
+    ],
+    "bio": "SRE / Cloud Architect / DevOps / SysOps  #DBA refoulé. #SRE en devenir.  #Lyon / https://bool.fr/",
+    "avatar": "avatars/bool_fr.webp",
+    "bluesky": "https://bsky.app/profile/bool.fr",
+    "tags": [],
+    "blog": "https://bool.fr"
+  },
+  {
+    "id": 16,
+    "name": "Rémi Verchère ❄️",
+    "title": "",
+    "roles": [
+      "blog"
+    ],
+    "bio": "Cloud Native Infrastructure Consultant | Kubestronaut. Compte perso, troll bienveillant.",
+    "avatar": "avatars/r_verchere_fr.webp",
+    "bluesky": "https://bsky.app/profile/r.verchere.fr",
+    "tags": [],
+    "blog": "https://r.verchere.fr"
+  },
+  {
+    "id": 17,
+    "name": "Michael Todorovic",
+    "title": "",
+    "roles": [
+      "blog"
+    ],
+    "bio": "Automating bugs deployment at scale and empowering developer experience   Senior SRE @veepee_fr  Food, music, Akita inu lover",
+    "avatar": "avatars/michael_tf.webp",
+    "bluesky": "https://bsky.app/profile/michael.tf",
+    "tags": [],
+    "blog": "https://michael.tf"
+  },
+  {
+    "id": 18,
+    "name": "Axel Vanzaghi",
+    "title": "",
+    "roles": [
+      "blog"
+    ],
+    "bio": "Thoughts Are My Own | Réanimateur de machines (SRE) @OVHcloud  | Tech addict | French and English",
+    "avatar": "avatars/axellink_fr.webp",
+    "bluesky": "https://bsky.app/profile/axellink.fr",
+    "tags": [],
+    "blog": "https://axellink.fr"
+  },
+  {
+    "id": 19,
+    "name": "Maxime",
+    "title": "",
+    "roles": [
+      "blog"
+    ],
+    "bio": "SRE @ waays.fr Développeur sur mon temps libre",
+    "avatar": "avatars/maximebadin_fr.webp",
+    "bluesky": "https://bsky.app/profile/maximebadin.fr",
+    "tags": [],
+    "blog": "https://maximebadin.fr"
+  },
+  {
+    "id": 20,
+    "name": "Seboss666",
+    "title": "Sysadmin dans l'âme",
+    "roles": [
+      "blog",
+      "streamer"
+    ],
+    "bio": "Les divagations d'un pseudo-geek curieux. Procrastineur de l'extrême. Heureux utilisateur de Manjaro Linux.",
+    "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:m6eaxdk2x7bj7jebrqc32udo/bafkreieu5plndzz6kbopvt4j62hpjnacamnusfsj2i7nfsesk7g6ftfeqq",
+    "bluesky": "https://bsky.app/profile/seboss666.info",
+    "github": "https://github.com/Seboss666",
+    "blog": "https://blog.seboss666.info",
+    "rss": "https://blog.seboss666.info/feed/",
+    "twitch": "https://www.twitch.tv/therealseboss666",
+    "tags": [
+      "Sysadmin",
+      "Linux"
     ]
   }
 ]
