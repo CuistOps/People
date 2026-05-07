@@ -13,6 +13,9 @@ for g in guests:
     if not url:
         errors.append(f"[{g['name']}] missing avatar")
         continue
+    if not url.startswith("http://") and not url.startswith("https://"):
+        print(f"OK  {g['name']}  (local)")
+        continue
     try:
         req = urllib.request.Request(url, method="HEAD", headers={"User-Agent": "Mozilla/5.0"})
         with urllib.request.urlopen(req, timeout=10) as r:
