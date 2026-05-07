@@ -2,14 +2,21 @@
 <opml version="2.0">
   <head>
     <title>CuistOps — Blogs des potes</title>
-    <dateCreated>Mon, 06 Apr 2026 20:13:38 GMT</dateCreated>
+    <dateCreated>Thu, 07 May 2026 21:29:58 GMT</dateCreated>
   </head>
   <body>
     <outline text="CuistOps">
       <outline type="rss" text="Quentin JOLY" title="Quentin JOLY — SRE chez Lucca" xmlUrl="https://une-tasse-de.cafe/index.xml" htmlUrl="https://une-tasse-de.cafe"/>
       <outline type="rss" text="Joseph Ligier" title="Joseph Ligier — Ingénieur cloud chez Accenture" xmlUrl="https://blog.littlejo.link/index.xml" htmlUrl="https://blog.littlejo.link/"/>
-      <outline type="rss" text="Denis Germain" title="Denis Germain — Platform Engineer Manager à Lucca" xmlUrl="https://blog.zwindler.fr/index.xml" htmlUrl="https://blog.zwindler.fr "/>
-      <outline type="rss" text="Thomas (Damyr) W." title="Thomas (Damyr) W. — SRE | blogueur DevOps &amp; associé @ Waays" xmlUrl="https://www.damyr.fr/index.xml" htmlUrl="https://www.damyr.fr/ "/>
+      <outline type="rss" text="Denis Germain" title="Denis Germain — Platform Engineer Manager à Lucca" xmlUrl="https://blog.zwindler.fr/index.xml" htmlUrl="https://blog.zwindler.fr"/>
+      <outline type="rss" text="Thomas (Damyr) W." title="Thomas (Damyr) W. — SRE | blogueur DevOps &amp; associé @ Waays" xmlUrl="https://www.damyr.fr/index.xml" htmlUrl="https://www.damyr.fr/"/>
+      <outline type="rss" text="Julien HOMMET" title="Julien HOMMET — SRE - CTO - DevOps Engineer" xmlUrl="https://j.hommet.net/index.xml" htmlUrl="https://j.hommet.net"/>
+      <outline type="rss" text="Jérémy Chabernaud" title="Jérémy Chabernaud — Architecte Cloud Solutions @ AQR8" xmlUrl="https://xorhak.fr/rss/" htmlUrl="https://xorhak.fr/"/>
+      <outline type="rss" text="Aurélie Vache" title="Aurélie Vache — " xmlUrl="https://dev.to/feed/aurelievache" htmlUrl="https://dev.to/aurelievache"/>
+      <outline type="rss" text="Raphaël Pinson" title="Raphaël Pinson — " xmlUrl="https://dev.to/feed/raphink" htmlUrl="https://raphink.info"/>
+      <outline type="rss" text="Pascal MARTIN 😶‍🌫️" title="Pascal MARTIN 😶‍🌫️ — " xmlUrl="https://blog.pascal-martin.fr/index.xml" htmlUrl="https://blog.pascal-martin.fr"/>
+      <outline type="rss" text="Frédéric Léger - webofmars" title="Frédéric Léger - webofmars — " xmlUrl="https://webofmars.com/index.xml" htmlUrl="https://webofmars.com"/>
+      <outline type="rss" text="Seboss666" title="Seboss666 — Sysadmin dans l'âme" xmlUrl="https://blog.seboss666.info/feed/" htmlUrl="https://blog.seboss666.info"/>
     </outline>
   </body>
 </opml>
