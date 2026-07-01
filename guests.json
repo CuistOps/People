@@ -385,5 +385,25 @@
       "HTMX",
       "Dev"
     ]
+  },
+  {
+    "id": 26,
+    "name": "Robin LAMBERTINI",
+    "title": "DevOps",
+    "roles": [
+      "blog"
+    ],
+    "bio": "L'IT c'est le pied : Ça marche ! C'est génial ! Ou alors : Y'a rien qui marche, c'est de la merde, je vais élever des chèvres dans le Larzac... Et c'est pour ça que j'aime ça !",
+    "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:cbokwu5lq7upq4zx5kkvh6go/bafkreid7o5tttmy3yey4sdpu6jqllemaa7n6izslvh4fnpooc54rsqdy4u",
+    "linkedin": "https://www.linkedin.com/in/lambertini-robin/",
+    "bluesky": "https://bsky.app/profile/robinlambertini.bsky.social",
+    "github": "https://github.com/RobinLambertini",
+    "blog": "https://robin.lambertini.space/",
+    "rss": "https://robin.lambertini.space/feed.xml",
+    "tags": [
+      "Devops",
+      "Docker",
+      "Python"
+    ]
   }
 ]
